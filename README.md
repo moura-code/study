@@ -1,2 +1,2 @@
-## In this repository i am going to test all principals User Authentication strategies with express.js and passaport.js
-* local stategy
+## In this repository i am going put somethings i am doing that do  not worth to make a whole repository about
+* local stategy with
