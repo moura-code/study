@@ -17,7 +17,6 @@ public class Program {
     }
 
     public void ask(){
-
         System.out.println("Hi "+ person.toString() + ", what do you want to do? [Exit:E/Add to cart:A/See cart:S/Remove item:R]");
         String input = scanner.nextLine().trim();
         while(!(input.equalsIgnoreCase("E") || input.equalsIgnoreCase("R")|| input.equalsIgnoreCase("S")|| input.equalsIgnoreCase("A") ) ){
