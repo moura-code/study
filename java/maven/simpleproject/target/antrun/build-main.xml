@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <zip basedir="C:\Users\joao\OneDrive\Desktop\study\java\maven\simpleproject/target" destfile="C:\Users\joao\OneDrive\Desktop\study\java\maven\simpleproject/target/app.zip" includes="Dockerfile, Dockerrun.aws.json, simpleproject.jar"/>
+</target>
+</project>
