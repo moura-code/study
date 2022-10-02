@@ -129,7 +129,10 @@ describe('AppController (e2e)', () => {
           .withHeaders({
             Authorization: 'Bearer $S{userAt}',
           })
-          .expectStatus(200).expectJsonLike({"$V.length === 6"});
+          .expectStatus(200)
+          .expectJsonLike({
+            data: {},
+          });
       });
     });
   });
