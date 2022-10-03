@@ -27,8 +27,7 @@ def puntos(jugadores:list[dict]) -> None:
             print('ESTE ES EL GANADOR ' ,end=' | ')
         print(f'Jugador [{i["id"]}] esta en la casilla {i["casilla"]} teniendo {i["puntos"]} puntos')
     input('enter para proseguir')
-        
-
+     
 def opcion() -> int:
     os.system('cls')
     while True:
@@ -42,6 +41,7 @@ def opcion() -> int:
     return num
 
 def jugar(jugadores:list[dict]) -> list[dict] and bool :
+
     """
     Un dicionario con la informacion de cada obstaculo siendo la llave la casilla donde estara el obstaculo
     y la llave como una tupla de para donde ira el jugador y cuantos puntos ganara o perdera.
@@ -83,7 +83,7 @@ def main():
     os.system('cls') # comando para limpiar la consola
     print('----------- Bienvenido al juego ------------')
     jugadores= []
-    for i in range(1,num_jugadores()+1):
+    for i in range(1,num_jugadores() + 1):  
         jugadores.append({'id':i,'casilla':0,'puntos':0})
     while True:
         if opcion():

@@ -138,6 +138,22 @@ describe('AppController (e2e)', () => {
   });
   describe('Bookmarks', () => {
     describe('Create Bookmark', () => {});
-    describe('User', () => {});
+    describe('Get books marks', () => {
+      it('should get book marks', () => {
+        return pactum
+          .spec()
+          .get('/bookmarks')
+          .withHeaders({
+            Authorization: 'Bearer $S{userAt}',
+          })
+          .expectStatus(200)
+          .expectBody([]);
+      });
+    });
+    describe('Get book mark by id', () => {
+      
+    });
+    describe('Edit book mark by id', () => {});
+    describe('delete book mark by id', () => {});
   });
 });
