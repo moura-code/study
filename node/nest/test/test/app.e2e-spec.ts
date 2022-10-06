@@ -5,6 +5,7 @@ import * as pactum from 'pactum';
 import { AppModule } from '../src/app.module';
 import { AuthDto } from '../src/auth/dto';
 import { EditDto } from '../src/user/dto';
+import { CreateBookmark } from 'src/bookmark/dto/create-BookmarkDto';
 describe('AppController (e2e)', () => {
   let app: INestApplication;
   let prisma: PrismaService;
@@ -130,14 +131,29 @@ describe('AppController (e2e)', () => {
             Authorization: 'Bearer $S{userAt}',
           })
           .expectStatus(200)
-          .expectJsonLike({
-            data: {},
-          });
+          .expectJsonLength(1);
       });
     });
   });
   describe('Bookmarks', () => {
-    describe('Create Bookmark', () => {});
+    const dto: CreateBookmark = {
+      title: 'test title',
+      descrption: 'test descrption',
+      link: 'http test link',
+    };
+    describe('Create Bookmark', () => {
+      it('it shloud create a book mark', () => {
+        return pactum
+          .spec()
+          .post('/bookmarks')
+          .withHeaders({
+            Authorization: 'Bearer $S{userAt}',
+          })
+          .withBody(dto)
+          .expectStatus(201)
+          .stores('bookmarkId', 'id');
+      });
+    });
     describe('Get books marks', () => {
       it('should get book marks', () => {
         return pactum
@@ -151,7 +167,17 @@ describe('AppController (e2e)', () => {
       });
     });
     describe('Get book mark by id', () => {
-      
+      it('should get book marks by user id', () => {
+        return pactum
+          .spec()
+          .get('/bookmarks/{id}')
+          .withPathParams('id', '$S{bookmarkId}')
+          .withHeaders({
+            Authorization: 'Bearer $S{userAt}',
+          })
+          .expectStatus(200)
+          .inspect();
+      });
     });
     describe('Edit book mark by id', () => {});
     describe('delete book mark by id', () => {});

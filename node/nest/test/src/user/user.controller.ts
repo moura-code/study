@@ -16,7 +16,7 @@ export class UserController {
   }
   @Get()
   getAll() {
-    return { data: this.userService.getAll() };
+    return this.userService.getAll();
   }
   @Patch()
   editUser(@GetUser('id') userId: number, @Body() dto: EditDto) {
