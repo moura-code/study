@@ -1,7 +1,10 @@
-.logo{
-    width: 10rem;
+
+.form{
+    padding: 10px;
 }
-.main{
-    display: flex;
-    align-items: center;
+.form > div{
+    padding-bottom: 10px;
+}
+.form > div > input{
+    width: 20rem;
 }

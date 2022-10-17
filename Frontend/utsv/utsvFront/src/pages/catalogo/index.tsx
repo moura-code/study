@@ -1,9 +1,8 @@
 import { useState } from "react";
 import Button from "react-bootstrap/esm/Button";
 import style from "./style.module.css";
-const Login = () => {
-  const [username, setUsername] = useState("");
-  const [password, setPassword] = useState("");
+const Catalogo = () => {
+
 
   return (
     <>
@@ -24,4 +23,4 @@ const Login = () => {
   );
 };
 
-export default Login;
+export default Catalogo;
