@@ -1,0 +1,14 @@
+.form{
+    margin:3rem;
+}
+.form > h1{
+    color: green;
+}
+.form > div{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.form > div > input{
+    width: 20rem;
+    border-color: blue;
+}

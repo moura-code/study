@@ -4,6 +4,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import logo from "./images/logo.jpeg";
 import style from "./main.module.css";
 import Inicio from "./pages/inicio";
+import Consulta from "./pages/consulta";
+import Reservar from "./pages/reservar";
+import Catalogo from "./pages/catalogo";
 function App() {
   
   return (
@@ -15,9 +18,9 @@ function App() {
       <Routes>
         <Route  path="/" element={<Login />} />
         <Route  path='/inicio' element={<Inicio />} />
-        <Route path="/inicio/consulta" element={<h2>hygywdw7</h2>} />
-        <Route path="/inicio/reservar" element={<h2>hygywdw7</h2>} />
-        <Route path="/inicio/catalogo" element={<h2>hygywdw7</h2>} />
+        <Route path="/inicio/consulta" element={<Consulta />} />
+        <Route path="/inicio/reservar" element={<Reservar />} />
+        <Route path="/inicio/catalago" element={<Catalogo />} />
         <Route path="/inicio/cerrar%20sesion" element={<h2>hygywdw7</h2>} />
     
       </Routes>

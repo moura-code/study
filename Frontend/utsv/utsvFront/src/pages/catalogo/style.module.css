@@ -1,0 +1,14 @@
+.main{
+    margin: 1rem;
+    display: flex;
+   align-items: center;
+}
+.main > img{
+    width: 150px;
+    border-radius: 5px;
+    padding-right: 1rem;
+}
+.title{
+    color:#008000;
+    padding: 1rem;
+}
