@@ -6,7 +6,12 @@ import { BooksController } from './books/books.controller';
 import { BooksService } from './books/books.service';
 import { BooksModule } from './books/books.module';
 @Module({
-  imports: [AuthModule, PrismaModule, ConfigModule.forRoot({ isGlobal: true }), BooksModule],
+  imports: [
+    AuthModule,
+    PrismaModule,
+    ConfigModule.forRoot({ isGlobal: true }),
+    BooksModule,
+  ],
   controllers: [BooksController],
   providers: [BooksService],
 })

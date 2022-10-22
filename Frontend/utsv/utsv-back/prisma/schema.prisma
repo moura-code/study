@@ -23,3 +23,12 @@ model Book {
   editorial String
   autor String
 }
+
+model Reserva{
+  id Int @id @default(autoincrement())
+  nombre String
+  matricula String
+  carrera String
+  modalidad String
+  codigo_libro String
+}

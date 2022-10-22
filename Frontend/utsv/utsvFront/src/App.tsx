@@ -8,7 +8,12 @@ import Consulta from "./pages/consulta";
 import Reservar from "./pages/reservar";
 import Catalogo from "./pages/catalogo";
 import { Link } from "react-router-dom";
+import { useState } from "react";
+import Books from "./pages/catalogo/books";
+import Reservas from "./pages/reservar/reservas";
+
 function App() {
+  const [loged, setIsLoggedIn] = useState(false);
   return (
     <Router>
       <div className={style.main}>
@@ -18,12 +23,22 @@ function App() {
         <h2>Sistema bibliotecario UTSV</h2>
       </div>
       <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/inicio" element={<Inicio />} />
-        <Route path="/inicio/consulta" element={<Consulta />} />
-        <Route path="/inicio/reservar" element={<Reservar />} />
-        <Route path="/inicio/catalago" element={<Catalogo />} />
-        <Route path="/inicio/cerrar%20sesion" element={<h2>hygywdw7</h2>} />
+        <Route path="/" element={<Login setIsLoggedIn={setIsLoggedIn} />} />
+        <Route
+          path="/inicio"
+          element={<Inicio loged={loged} setIsLoggedIn={setIsLoggedIn}  /> } />
+        
+        <Route path="/inicio/consulta" element={<Consulta loged={loged} />} />
+        <Route path="/inicio/reservar" element={<Reservar loged={loged} />} />
+        <Route
+          path="/inicio/reservar/all"
+          element={<Reservas loged={loged} />}
+        />
+        <Route path="/inicio/catalago" element={<Catalogo loged={loged} />} />
+        <Route
+          path="/inicio/catalago/:type"
+          element={<Books loged={loged} />}
+        />
       </Routes>
     </Router>
   );
