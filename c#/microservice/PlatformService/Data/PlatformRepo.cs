@@ -1,7 +1,7 @@
 using PlatformService.Data;
 using PlatformService.Models;
 
-namespace PlataformService.Data
+namespace PlatformService.Data
 {
     public class PlatformRepo : IPlatformRepo
     {
@@ -14,8 +14,9 @@ namespace PlataformService.Data
         {
             if (plat == null)
             {
-                throw new ArgumentNullException();
+                throw new ArgumentNullException(nameof(plat));
             }
+            _context.Platforms.Add(plat);
             return;
         }
 

@@ -27,7 +27,6 @@ function App() {
         <Route
           path="/inicio"
           element={<Inicio loged={loged} setIsLoggedIn={setIsLoggedIn}  /> } />
-        
         <Route path="/inicio/consulta" element={<Consulta loged={loged} />} />
         <Route path="/inicio/reservar" element={<Reservar loged={loged} />} />
         <Route

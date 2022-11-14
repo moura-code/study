@@ -1,7 +1,7 @@
 import time
 import sys
 import subprocess
-import win32api, win32con
+
 
 def modoAviao():
     pass
@@ -13,12 +13,12 @@ def main():
         contas = f.read().splitlines()
     link = sys.argv[sys.argv.index('-l') + 1]
     password = sys.argv[sys.argv.index('-p') + 1]
-    num = 11
+    num = 2
     proceso = 1
     while True:
 
     
-        lista = contas[num-10:num]
+        lista = contas[num-1:num]
         print(lista)
         if not lista:
             break
@@ -30,5 +30,5 @@ def main():
         modoAviao()
         time.sleep(50)
         proceso+=1
-        num +=10
+        num +=1
 main()

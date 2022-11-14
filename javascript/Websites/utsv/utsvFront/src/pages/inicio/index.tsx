@@ -3,6 +3,8 @@ import Button from "react-bootstrap/esm/Button";
 import style from "./style.module.css";
 import person from "../../images/persons.jpeg";
 import { buttons } from "../../Data/main";
+
+
 import { Link, useNavigate } from "react-router-dom";
 const Inicio = ({ loged }: { loged: boolean }, { setIsLoggedIn }: any) => {
   let navigate = useNavigate();
@@ -18,6 +20,7 @@ const Inicio = ({ loged }: { loged: boolean }, { setIsLoggedIn }: any) => {
   };
 
   return (
+
     <div className={style.content}>
       <div className={style.buttonslayout}>
         {buttons.map((c, key) => {
