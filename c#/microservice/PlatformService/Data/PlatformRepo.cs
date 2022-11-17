@@ -1,4 +1,4 @@
-using PlatformService.Data;
+
 using PlatformService.Models;
 
 namespace PlatformService.Data
@@ -10,7 +10,7 @@ namespace PlatformService.Data
         {
             _context = _context;
         }
-        public void CreatePlataform(Platform plat)
+        public void CreatePlatform(Platform plat)
         {
             if (plat == null)
             {

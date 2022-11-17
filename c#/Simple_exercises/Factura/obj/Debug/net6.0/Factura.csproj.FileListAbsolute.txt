@@ -1,0 +1,15 @@
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\bin\Debug\net6.0\Factura.exe
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\bin\Debug\net6.0\Factura.deps.json
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\bin\Debug\net6.0\Factura.runtimeconfig.json
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\bin\Debug\net6.0\Factura.dll
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\bin\Debug\net6.0\Factura.pdb
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.csproj.AssemblyReference.cache
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.AssemblyInfoInputs.cache
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.AssemblyInfo.cs
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.csproj.CoreCompileInputs.cache
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.dll
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\refint\Factura.dll
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.pdb
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\Factura.genruntimeconfig.cache
+C:\Users\joao\OneDrive\Desktop\studyme\c#\Simple_exercises\Factura\obj\Debug\net6.0\ref\Factura.dll
