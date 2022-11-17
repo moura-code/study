@@ -28,7 +28,6 @@ def main():
             comand+=f' {i}'
         subprocess.run(comand)
         modoAviao()
-        time.sleep(50)
         proceso+=1
         num +=1
 main()
