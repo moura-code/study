@@ -2,7 +2,8 @@ using System.ComponentModel.DataAnnotations;
 
 namespace PlatformService.Models
 {
-    public class Platform{
+    public class Platform
+    {
         [Key]
         [Required]
         public int Id { get; set; }
@@ -11,7 +12,7 @@ namespace PlatformService.Models
         public string Name { get; set; }
 
         [Required]
-        public string Publicher { get; set; }
+        public string Publisher { get; set; }
 
         [Required]
         public string Cost { get; set; }

@@ -17,9 +17,9 @@ namespace PlatformService.Data
                 Console.WriteLine("seending data");
 
                 context.Platforms.AddRange(
-                    new Platform(){Name="Dot Net",Publicher="Microsoft",Cost="Free"},
-                    new Platform(){Name="SQL Server Express",Publicher="Microsoft",Cost="Free",},
-                    new Platform(){Name="Kubernetes",Publicher="Clound",Cost="Free",}
+                    new Platform(){Name="Dot Net",Publisher="Microsoft",Cost="Free"},
+                    new Platform(){Name="SQL Server Express",Publisher="Microsoft",Cost="Free",},
+                    new Platform(){Name="Kubernetes",Publisher="Clound",Cost="Free",}
                 );
                 context.SaveChanges();
             }else{

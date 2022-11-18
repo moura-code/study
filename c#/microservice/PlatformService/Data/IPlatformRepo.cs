@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using PlatformService.Models;
 namespace PlatformService.Data
 {
@@ -6,7 +7,9 @@ namespace PlatformService.Data
         bool SaveChanges();
 
         IEnumerable<Platform> GetAllPlatforms();
-        Platform GetPlatformByid(int id);
+
+        Platform GetPlatformById(int id);
+
         void CreatePlatform(Platform plat);
     }
 }
