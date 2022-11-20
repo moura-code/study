@@ -1,25 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\joao\\OneDrive\\Desktop\\studyme\\c#\\microservice\\PlatformService\\PlatformService.csproj": {}
+    "C:\\Users\\Pedro\\OneDrive\\Área de Trabalho\\study\\dotNet\\MicroServices\\PlatformService\\PlatformService.csproj": {}
   },
   "projects": {
-    "C:\\Users\\joao\\OneDrive\\Desktop\\studyme\\c#\\microservice\\PlatformService\\PlatformService.csproj": {
+    "C:\\Users\\Pedro\\OneDrive\\Área de Trabalho\\study\\dotNet\\MicroServices\\PlatformService\\PlatformService.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\joao\\OneDrive\\Desktop\\studyme\\c#\\microservice\\PlatformService\\PlatformService.csproj",
+        "projectUniqueName": "C:\\Users\\Pedro\\OneDrive\\Área de Trabalho\\study\\dotNet\\MicroServices\\PlatformService\\PlatformService.csproj",
         "projectName": "PlatformService",
-        "projectPath": "C:\\Users\\joao\\OneDrive\\Desktop\\studyme\\c#\\microservice\\PlatformService\\PlatformService.csproj",
-        "packagesPath": "C:\\Users\\joao\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\joao\\OneDrive\\Desktop\\studyme\\c#\\microservice\\PlatformService\\obj\\",
+        "projectPath": "C:\\Users\\Pedro\\OneDrive\\Área de Trabalho\\study\\dotNet\\MicroServices\\PlatformService\\PlatformService.csproj",
+        "packagesPath": "C:\\Users\\Pedro\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Pedro\\OneDrive\\Área de Trabalho\\study\\dotNet\\MicroServices\\PlatformService\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\joao\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Pedro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
+        "originalTargetFrameworks": ["net6.0"],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -29,9 +29,7 @@
           }
         },
         "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
+          "warnAsError": ["NU1605"]
         }
       },
       "frameworks": {
@@ -40,7 +38,11 @@
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
               "target": "Package",
-              "version": "[12.0.0, )"
+              "version": "[11.0.0, )"
+            },
+            "Grpc.AspNetCore": {
+              "target": "Package",
+              "version": "[2.49.0, )"
             },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
@@ -59,6 +61,10 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[6.0.9, )"
+            },
+            "RabbitMQ.Client": {
+              "target": "Package",
+              "version": "[6.4.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
@@ -84,7 +90,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
