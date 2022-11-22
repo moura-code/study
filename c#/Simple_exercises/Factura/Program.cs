@@ -7,8 +7,10 @@ internal class Program
 
     private static void Main(string[] args)
     {
+
         Console.WriteLine("Bien venido a la ferretería!");
 
+        // Agrego a lista todos los productos
         List<Articulo> articulos = new List<Articulo>(){
             new Articulo(Valor: 12, Nome: "Martillo", Cantidad: 20),
             new Articulo(Valor: 53, Nome: "Pintura", Cantidad: 20), 
@@ -21,8 +23,10 @@ internal class Program
             new Articulo(Valor: 58, Nome: "Tijera", Cantidad: 20),
             new Articulo(Valor: 67, Nome: "Pincel", Cantidad: 20),
         };
+        
         Dictionary<Articulo, int> carrito = new Dictionary<Articulo, int>();
 
+        
         while (true)
         {
         
