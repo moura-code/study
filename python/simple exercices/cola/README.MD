@@ -47,3 +47,5 @@ def __str__(self):
 El __str__ retornara simplesmente el dicionario
 El __len__ retornara el len del dicionario
 Y la def is_empty usara la funcion peek para ver si esta vacio el dicionario, si esta vacio retornara truel, si no false
+
+#### Para finalizar si te fijas en el archivo Test_PQ.py y corres todos los tests, vas a ver como todos estan correctos y con un tiempo esperablemente razonable
