@@ -21,7 +21,8 @@ class PriorityQueue:
 
     # Insert or update item with priority and data given
     def insert_or_update(self, priority, data):
-        self.data_dict[data] = priority
+
+        self.data_dict[priority] = data
       
 
 
@@ -30,6 +31,7 @@ class PriorityQueue:
     def extract(self):
         try:
             lowest = min(self.data_dict.items(), key=lambda x: x[0]) 
+          
             self.data_dict.pop(lowest[0],None)
         except ValueError:
             return None

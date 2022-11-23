@@ -34,6 +34,7 @@ def test_insertion_extraction(num_elements, num_trials):
             item = pq.extract()
             priority = item[0]
             data = item[1]
+
             # Check item
             if priority != i:
                 # Set failed flag
@@ -44,7 +45,6 @@ def test_insertion_extraction(num_elements, num_trials):
 
                 # Break trial
                 break
-            
 
         # Check empty PQ should return None
         item = pq.extract()
@@ -72,7 +72,7 @@ def test_insertion_update_extraction(num_elements, num_trials):
     print('  TESTING INSERTION, UPDATE AND EXTRACTION  ')
     print('--------------------------------------------')
     print()
-    
+
     # Run test num trials
     for trial in range(num_trials):
         # Empty insertion list
@@ -88,7 +88,7 @@ def test_insertion_update_extraction(num_elements, num_trials):
 
         # Create priority queue
         pq = PriorityQueue()
-        
+
         # Insert elements in PQ
         for x in a:
             # Get item and priority
@@ -120,7 +120,7 @@ def test_insertion_update_extraction(num_elements, num_trials):
             item = pq.extract()
             priority = item[0]
             data = item[1]
-            
+
             # Check item
             if priority != i:
                 # Set failed flag
@@ -201,7 +201,6 @@ def test_timed_insertion_extraction(elements, num_trials):
 
             # Check empty PQ should return None
             item = pq.extract()
-   
             if item != None:
                     # Set failed flag
                     failed_trial = True
@@ -296,7 +295,6 @@ def test_timed_insertion_update_extraction(elements, num_trials):
 
             # Testing extraction (in order)
             for i in range(num_elements):
-                
                 # Get item
                 item = pq.extract()
                 priority = item[0]
