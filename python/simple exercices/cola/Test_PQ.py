@@ -19,7 +19,7 @@ def test_insertion_extraction(num_elements, num_trials):
 
         # Create priority queue
         pq = PriorityQueue()
-
+        
         # Insert elements in PQ
         for x in a:
             # Insert element and priority

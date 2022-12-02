@@ -23,6 +23,7 @@ class PriorityQueue:
     def insert_or_update(self, priority, data):
 
         self.data_dict[priority] = data
+        self.heap = self.data_dict.items()
       
 
 
@@ -37,7 +38,7 @@ class PriorityQueue:
             return None
         while lowest[1] in self.data_dict.values():
             self.data_dict.pop(list(self.data_dict.keys())[list(self.data_dict.values()).index(lowest[1])]) 
-            
+        self.heap = self.data_dict.items()
         return (lowest)
         
         
@@ -54,11 +55,11 @@ class PriorityQueue:
 
     # Return a string representing the internal state
     def __str__(self):
-        return self.data_dict
+        return self.heap
 
     # Return number of elements in the queue
     def __len__(self):
-        return len(self.data_dict)
+        return len(self.heap)
 
     # Return True if queue is empty, False otherwise
     def is_empty(self):
