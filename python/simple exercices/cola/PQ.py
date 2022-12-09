@@ -23,23 +23,27 @@ class PriorityQueue:
     def insert_or_update(self, priority, data):
 
         self.data_dict[priority] = data
-        self.heap = self.data_dict.items()
+        self.heap = list(self.data_dict.items())
       
 
 
     # Extract element with lowest priority value
     # Return the element as tuple (priority, data)
     def extract(self):
-        try:
-            lowest = min(self.data_dict.items(), key=lambda x: x[0]) 
-          
-            self.data_dict.pop(lowest[0],None)
-        except ValueError:
-            return None
-        while lowest[1] in self.data_dict.values():
-            self.data_dict.pop(list(self.data_dict.keys())[list(self.data_dict.values()).index(lowest[1])]) 
-        self.heap = self.data_dict.items()
-        return (lowest)
+        if not self.is_empty(): return None
+        
+        menor = min(self.heap, key=lambda x: x[0])
+        
+        self.data_dict.pop(menor[0],None)
+        
+        while True:
+            if menor[1] in self.data_dict.values():
+                self.data_dict.pop(list(self.data_dict.keys())[list(self.data_dict.values()).index(menor[1])])
+            else: break
+        self.heap = list(self.data_dict.items())
+        
+        return (menor)
+        
         
         
 
@@ -47,11 +51,9 @@ class PriorityQueue:
     # as a tuple (priority, data)
     # DO NOT REMOVE from queue
     def peek(self):
-        try:
-            lowest = min(self.data_dict.items(), key=lambda x: x[0]) 
-        except ValueError:
-            return None
-        return (lowest)
+        try: menor = min(self.data_dict.items(), key=lambda x: x[0]) 
+        except ValueError: return None
+        return (menor)
 
     # Return a string representing the internal state
     def __str__(self):
@@ -63,6 +65,7 @@ class PriorityQueue:
 
     # Return True if queue is empty, False otherwise
     def is_empty(self):
+
         # Return queue is empty
         return ( self.peek() != None )
 
