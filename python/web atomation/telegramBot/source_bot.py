@@ -7,7 +7,7 @@ import telebot
 token = "5875606200:AAGiD8vSHfb78SylqPNK-xyzHOttdJmIdKw"
 bot = telebot.TeleBot(token)
 
-@bot.message_handler(commands=['start'])
+@bot
 def bot_main(mensagem):
     bot.reply_to(mensagem, "Teste de funcionalidade do grupo!")
     bot.reply_to(mensagem, "esse é o unico comando ativo, não tente mais comandos!")

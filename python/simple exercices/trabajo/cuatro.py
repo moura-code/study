@@ -1,7 +1,7 @@
 
 class Alumno():
 
-    nombre:str ; apellido:str ; sexo : 'F' or 'M'
+    nombre:str ; apellido:str ; sexo : str
     edad : int
 
     def __init__(self, nombre:str , apellido: str , sexo: str, edad: int) -> None:
