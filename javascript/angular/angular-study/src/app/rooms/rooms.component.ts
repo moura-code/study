@@ -1,3 +1,4 @@
+import { Person } from './persons';
 import { Component } from '@angular/core';
 
 @Component({
@@ -6,18 +7,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./rooms.component.scss'],
 })
 export class RoomsComponent {
-  persons = ['joao', 'pedro', 'mock', 'felipe'].map((nome) =>
-    this.createPerson(nome)
-  );
-
-  createPerson(name: string) {
-    return { name, count: 0 };
-  }
+  persons: Person[] = []
   increment(name: string) {
     const person = this.persons.find((x) => x.name == name);
-    if (!person) {
-      return;
-    }
+    if (!person) return;
     person.count += 1;
   }
 }

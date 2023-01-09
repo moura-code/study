@@ -1,7 +1,8 @@
-
-<ul class="heroes">
-  <li *ngFor="let person of persons">
-  <button (click)="increment(person.name)">{{person.name}}</button>
-  <p [innerText]="person.count"></p>
-  </li>
-</ul>
+<div>
+  <div *ngFor="let item of persons as list">
+    {{ item }}
+  </div>
+  <div *ngIf="persons === undefined || persons.length < 1">
+    Penis
+  </div>
+</div>
