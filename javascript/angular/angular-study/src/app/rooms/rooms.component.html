@@ -1,8 +1,12 @@
-<div>
-  <div *ngFor="let item of persons as list">
-    {{ item }}
-  </div>
-  <div *ngIf="persons === undefined || persons.length < 1">
-    Penis
-  </div>
-</div>
+<table [ngClass]="'main'">
+  <tr *ngFor="let item of persons as list" >
+    <td>
+      <h1>{{ item.name }}</h1>
+    </td>
+    <td>
+      <p>{{ item.count }}</p>
+    </td>
+    <td><button (click)="increment(item.name)">count</button></td>
+  </tr>
+  <div *ngIf="!persons.length">penis</div>
+</table>

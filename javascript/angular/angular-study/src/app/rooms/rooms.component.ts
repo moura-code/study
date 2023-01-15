@@ -7,10 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./rooms.component.scss'],
 })
 export class RoomsComponent {
-  persons: Person[] = []
+  persons: Person[] = ["joao","pedro","felipe"].map(name=> new Person(name))
+
+
   increment(name: string) {
     const person = this.persons.find((x) => x.name == name);
     if (!person) return;
-    person.count += 1;
+    person.count *= 10;
   }
 }

@@ -1,5 +1,5 @@
 export class Person {
-  count = 0
+  count = 1
   name:string
   constructor(name:string){
     this.name=name

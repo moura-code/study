@@ -1,0 +1,21 @@
+.main {
+  margin-left: auto;
+  margin-right: auto;
+}
+td {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  width: 2rem;
+}
+
+p {
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+}
