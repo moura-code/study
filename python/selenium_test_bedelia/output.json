@@ -1,0 +1,65 @@
+[
+  {
+    "Column 1": "debe tener todas",
+    "Column 2": "no debe tener\n1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS\n140 créditos en el Plan: 1997 - INGENIERIA EN COMPUTACION",
+    "Column 6": "no debe tener",
+    "Column 7": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+    "Column 8": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+    "Column 12": "140 créditos en el Plan: 1997 - INGENIERIA EN COMPUTACION",
+    "Nested Table 1": [
+      {
+        "Column 4": "no debe tener",
+        "Column 5": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+        "Column 6": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+        "Nested Table 1": [{}, {}],
+        "Nested Table 2": [
+          {
+            "Column 1": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS"
+          }
+        ]
+      },
+      {},
+      {},
+      {
+        "Column 1": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS"
+      }
+    ],
+    "Nested Table 2": [{}, {}],
+    "Nested Table 3": [
+      {
+        "Column 1": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS"
+      }
+    ],
+    "Nested Table 4": [
+      {
+        "Column 4": "140 créditos en el Plan: 1997 - INGENIERIA EN COMPUTACION",
+        "Nested Table 1": [{}, {}]
+      },
+      {},
+      {}
+    ],
+    "Nested Table 5": [{}, {}]
+  },
+  {
+    "Column 4": "no debe tener",
+    "Column 5": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+    "Column 6": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS",
+    "Nested Table 1": [{}, {}],
+    "Nested Table 2": [
+      {
+        "Column 1": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS"
+      }
+    ]
+  },
+  {},
+  {},
+  {
+    "Column 1": "1 aprobación/es entre: \nU.C.B aprobada: 2241 - ADMINISTRACION DE EMPRESAS\nU.C.B aprobada: 1519 - INT. A LA ADMINISTRACION PARA INGENIEROS\nU.C.B aprobada: 1930 - ORGANIZACIONES PARA INGENIEROS"
+  },
+  {
+    "Column 4": "140 créditos en el Plan: 1997 - INGENIERIA EN COMPUTACION",
+    "Nested Table 1": [{}, {}]
+  },
+  {},
+  {}
+]

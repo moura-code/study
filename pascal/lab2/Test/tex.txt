@@ -1,0 +1,268 @@
+**********************************
+El caso 20  tiene errores
+La entrada es: 
+textos/texto2.txt
+
+100
+
+6
+1
+9
+MARTIN FIERRO
+
+6
+2
+1
+AUTOR: JOSE HERNANDEZ
+
+6
+16
+11
+mi entendimiento
+
+10
+Su programa genera: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Ingrese Nombre de Archivo: --------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+1. TITULO:
+2.
+3.
+4. Aqui me pongo a cantar
+5. al compas de la viguela,
+6. que el hombre que lo desvela
+7. una pena estraordinaria,
+8. como la ave solitaria
+9. con el cantar se consuela.
+10.
+11. Pido a los Santos del Cielo
+12. que ayuden mi pensamiento
+13. les pido en este momento
+14. que voy a cantar mi historia
+15. me refresquen la memoria
+16. y aclaren .
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+1. TITULO: MARTIN FIERRO
+2. AUTOR: JOSE HERNANDEZ
+3.
+4. Aqui me pongo a cantar
+5. al compas de la viguela,
+6. que el hombre que lo desvela
+7. una pena estraordinaria,
+8. como la ave solitaria
+9. con el cantar se consuela.
+10.
+11. Pido a los Santos del Cielo
+12. que ayuden mi pensamiento
+13. les pido en este momento
+14. que voy a cantar mi historia
+15. me refresquen la memoria
+16. y aclaren mi entendimiento.
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+EdiciÃ³n finalizada.
+
+El resultado correcto es: @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Ingrese Nombre de Archivo: --------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+1. TITULO:
+2.
+3.
+4. Aqui me pongo a cantar
+5. al compas de la viguela,
+6. que el hombre que lo desvela
+7. una pena estraordinaria,
+8. como la ave solitaria
+9. con el cantar se consuela.
+10.
+11. Pido a los Santos del Cielo
+12. que ayuden mi pensamiento
+13. les pido en este momento
+14. que voy a cantar mi historia
+15. me refresquen la memoria
+16. y aclaren .
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+Ingrese lÃ­nea: Ingrese columna: Ingrese cadena: LÃ­nea sobrante:No se encuentra
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+1. TITULO: MARTIN FIERRO
+2. AUTOR: JOSE HERNANDEZ
+3.
+4. Aqui me pongo a cantar
+5. al compas de la viguela,
+6. que el hombre que lo desvela
+7. una pena estraordinaria,
+8. como la ave solitaria
+9. con el cantar se consuela.
+10.
+11. Pido a los Santos del Cielo
+12. que ayuden mi pensamiento
+13. les pido en este momento
+14. que voy a cantar mi historia
+15. me refresquen la memoria
+16. y aclaren mi entendimiento.
+--------------------------------
+Ingrese OpciÃ³n
+--------------------------------
+0=fin
+1=todosTienenFormatoEnLinea
+2=aplicarFormatoEnLinea
+3=contarCaracteresEnTexto
+4=buscarCadenaEnLineaDesde
+5=buscarCadenaEnTextoDesde
+6=insertarCadenaEnLinea
+7=insertarLineaEnTexto
+100=mostrar texto
+101=mostrar formatos
+--------------------------------
+EdiciÃ³n finalizada.
+
+**********************************

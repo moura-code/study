@@ -1,0 +1,9 @@
+1>La frase 1 es Palindrome.
+2>La frase 11 es Palindrome.
+3>La frase 121 es Palindrome.
+4>La frase 12133121 es Palindrome.
+5>La frase 121343121 es Palindrome.
+6>La frase 1213 43121 NO es Palindrome.
+7>La frase 1213 4 3121 es Palindrome.
+8>La frase 12 NO es Palindrome.
+9>Fin.
